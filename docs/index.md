@@ -1,4 +1,7 @@
-# ABSTRACT
+---
+layout: default
+---
+
 We propose a new method for SAR image despeckling which leverages information drawn from co-registered optical imagery.
 Filtering is performed by plain patch-wise nonlocal means, operating exclusively on SAR data.
 However, the filtering weights are computed by taking into account also the optical guide, which is much cleaner than the SAR data,
