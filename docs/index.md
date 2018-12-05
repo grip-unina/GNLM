@@ -58,5 +58,5 @@ author={S. Vitale and D. Cozzolino and G. Scarpa and L. Verdoliva and G. Poggi},
 journal={arXiv:1811.11872}, 
 title={Guided patch-wise nonlocal SAR despeckling}, 
 year={2018} 
-}
+} 
 ```
