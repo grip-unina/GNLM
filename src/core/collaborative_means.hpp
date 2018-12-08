@@ -49,7 +49,7 @@ PixelType collaborative_means( Stack_Buffer<PixelType> &stackT3D, std::vector<Pi
 	if (d_min>16*filter_parameter) {
 		w_sum = 1.0;
 		multiply_and_accumulate(stackT3D[0],PixelType(1.0),blockSup);
-		mexPrintf("corrected  %d %f %f \n", Nb, dists[0], d_min);
+		//mexPrintf("corrected  %d %f %f \n", Nb, dists[0], d_min);
 	} else {
 		w_sum = 1.0;
 		multiply_and_accumulate(stackT3D[0],PixelType(1.0),blockSup);

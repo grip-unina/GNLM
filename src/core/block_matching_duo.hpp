@@ -219,9 +219,9 @@ template <typename BlockAccessor1, typename BlockAccessor2, typename OpDistance1
     }
     
     size_t N = list.size();
-    if ((N<opt1.max_matched) && (N<Ncheck)) {
-        mexPrintf("info N %d; Nmax  %d; Nchecked %d; NlowTH %d (%g) \n", N, opt1.max_matched, Ncheck, NcheckTh1, th1);
-    }
+    //if ((N<opt1.max_matched) && (N<Ncheck)) {
+    //    mexPrintf("info N %d; Nmax  %d; Nchecked %d; NlowTH %d (%g) \n", N, opt1.max_matched, Ncheck, NcheckTh1, th1);
+    //}
     dest_point.resize(N);
     dest_dist.resize(N);
     list.getMatchingList(dest_dist, dest_point, N);

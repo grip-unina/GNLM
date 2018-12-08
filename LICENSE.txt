@@ -3,7 +3,7 @@ THIS DOCUMENT CONSTITUTES A LICENCE TO USE THE SOFTWARE ON THE TERMS AND CONDITI
 
 Preamble
 
-This License applies to the software which with this license is distributed.
+This License applies to the software with which this license is distributed.
 The software is intellectual property of Image Processing Research Group of University Federico II of Naples ('GRIP-UNINA')
 and is placed under the protection of copyright laws, including Italian legislation and international treaties.
 BY USING THE PROGRAM, YOU INDICATE YOUR ACCEPTANCE OF THIS LICENSE TO DO SO.
