@@ -601,7 +601,7 @@ template<typename _Tp> inline Mat_<_Tp>& Mat_<_Tp>::operator = (const Mat& m)
 {
     if( DataType<_Tp>::type == m.type() )
     {
-        Mat::operator = (m);
+        (Mat*)this->operator=(m);
         return *this;
     }
     if( DataType<_Tp>::depth == m.depth() )
