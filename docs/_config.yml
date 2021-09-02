@@ -1,3 +1,4 @@
 remote_theme: grip-unina/webtemplate
-
-theme: jekyll-theme-dinky
+plugins:
+  - jekyll
+  - jekyll-seo-tag
